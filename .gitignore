@@ -1,0 +1,38 @@
+# Salesforce cache
+.sfdx/
+# LWC local development
+.localdevserver/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# git
+*.orig
+*.rej
+*.bak
+# IDE specific
+.vscode/*
+coverage
+.forceCode
+jsconfig.json
+.eslintrc.json
+.vim-force.com/session.properties
+IlluminatedCloud
+# Dependency directories
+node_modules/
+# Eslint cache
+.eslintcach
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+# retriever tmp directory
+tmp/
+.tmp/
+# npm intall
+package-lock.json
+# package.xml: generated with scripts on dev machine
+manifest/package.xml

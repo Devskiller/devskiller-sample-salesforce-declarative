@@ -1,0 +1,15 @@
+{
+    "readOnlyFiles": [
+        "force-app/main/default/classes/*Test*",
+        "force-app/main/default/objects/**",
+        "sfdx-project.json"
+    ],
+    "verification": {
+        "testClassNamePatterns": [
+            ".*CalculatorTest.*"
+        ],
+        "pathPatterns": [
+            "**verify_pack**"
+        ]
+    }
+}
